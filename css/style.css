@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.title {
+    text-align: center;
+    font-family: "Lobster";
+}
+
+.term {
+    border: 5px solid black;
+    text-align: center;
+    margin-top: 100px;
+    width: 45%;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+.definition {
+    border: 5px solid black;
+    text-align: center;
+    margin-top: 100px;
+    width: 45%;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    display: none;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#check {
+    margin-right: 20px;
+}
+
+button {
+    background-color: rgb(23, 143, 23);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
